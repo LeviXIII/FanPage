@@ -111,19 +111,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
         crossorigin="anonymous"></script>
 
-    <script>
-        $(document).ready(() => {    
-            revealPic("#michaelleague", "./Pictures/michaelLeague.jpg");
-            revealPic("#coryhenry", "./Pictures/coryHenry.jpg");
-            revealPic("#robertsearight", "./Pictures/robertSearight.png");
-        });
-
-        //This function reveals a picture after hovering over it.
-        revealPic = (idName, newSource) => {
-                $(idName).hover(() => {
-                    $(idName).attr("src", newSource);
-                });
-        };
-    </script>
+    <script type="text/javascript" src="./js/bio.js"></script>
 </body>
 </html>
